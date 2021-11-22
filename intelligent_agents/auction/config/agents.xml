@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<agents>
+	<!-- A list of agents and their behavior classes -->
+	
+	<!-- #### AUCTION AGENTS ### -->
+	<agent name="auction-random">
+		<set class-path="bin/"/>
+		<set class-name="template.AuctionTemplate"/>
+	</agent>
+
+	<agent name="auction-constant">
+		<set class-path="bin/"/>
+		<set class-name="AuctionConstant"/>
+	</agent>
+
+	<agent name="auction-planner">
+		<set class-path="bin/"/>
+		<set class-name="AuctionPlanner"/>
+	</agent>
+
+	<agent name="auction-uniform">
+		<set class-path="bin/"/>
+		<set class-name="AuctionUniform"/>
+	</agent>
+
+	<agent name="auction-risky">
+		<set class-path="bin/"/>
+		<set class-name="AuctionRisky"/>
+	</agent>
+
+	<agent name="auction-rational">
+		<set class-path="bin/"/>
+		<set class-name="AuctionRational"/>
+	</agent>
+
+	<agent name="auction-especter">
+		<set class-path="bin/"/>
+		<set class-name="AuctionEspecter"/>
+	</agent>
+
+	<agent name="auction-state">
+		<set class-path="bin/"/>
+		<set class-name="AuctionState"/>
+	</agent>
+
+	<agent name="auction-modeler">
+		<set class-path="bin/"/>
+		<set class-name="AuctionModeler"/>
+	</agent>
+
+	<agent name="auction-test">
+		<set class-path="bin/"/>
+		<set class-name="AuctionTest"/>
+	</agent>
+
+</agents>
